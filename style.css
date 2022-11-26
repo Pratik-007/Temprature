@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-image: url(temp2.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: rgb(151 155 88);
+    padding: 80px;
+
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#tempCalc label {
+    font-size: 30px;
+}
+
+#temp {
+    border: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 40px;
+    border: 12px;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-style: bold;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: rgb(233, 162, 9);
+    height: 35px;
+    width: 115px;
+}
+
+
+
